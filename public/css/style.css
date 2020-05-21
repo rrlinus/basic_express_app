@@ -1,0 +1,48 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+    text-align: center;
+    color: aliceblue;
+   
+    
+}
+#blk{
+    animation-name: rakesh;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes rakesh{
+from{
+    transform: translateY(1050px);
+}
+to{
+    transform: translateY(0px);
+}
+}
+
+img{
+width:80%;
+height: 280px;
+background-repeat: no-repeat;
+display: block;
+margin: auto;
+}
+a{
+    color: white;
+    font-size: larger;
+}
+span{
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: inline-block;
+    transform: translateY(50px);
+}
+span.ctext{
+    opacity: 1;
+    color: brown;
+    transform: translateY(0px);
+}
