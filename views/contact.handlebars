@@ -1,0 +1,11 @@
+{{#if name}}
+<div>{{name}}
+</div>
+{{else}}
+<form id="form" action="/contact" method="POST">
+<label for="Name">NAME:</label>
+<br>
+<input id="Name" name="name" placeholder="Enter Your Name:">
+<input type="submit" value="submit">
+</form>
+{{/if}}

@@ -2,6 +2,7 @@
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
+    font-size: xx-large;
 }
 body{
     background-color: #333333;
@@ -33,7 +34,6 @@ margin: auto;
 }
 a{
     color: white;
-    font-size: larger;
 }
 span{
     opacity: 0;
