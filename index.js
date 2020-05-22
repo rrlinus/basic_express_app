@@ -12,7 +12,7 @@ app.get('/contact',(req,res)=>{
 res.render('contact')
 })
 app.post('/contact',(req,res)=>{
-    res.render('contact',{name:"Welcome "+req.body.name})
+    res.render('contact',{name:"Welcome "+`<b>${req.body.name}</b>`})
 })
 app.set('view engine', 'handlebars')
 app.get('/',(req,res)=>{
