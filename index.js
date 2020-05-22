@@ -12,7 +12,7 @@ app.get('/contact',(req,res)=>{
 res.render('contact')
 })
 app.post('/contact',(req,res)=>{
-    res.render('contact',{name:"Thank You "+`<b style="color:green">${req.body.name}</b> For submitting The Form`})
+    res.render('contact',{name:"Thank You "+`<h1 style="color:green">${req.body.name}    .</h1> For submitting The Form`})
 })
 app.set('view engine', 'handlebars')
 app.get('/',(req,res)=>{

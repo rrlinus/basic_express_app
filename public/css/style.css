@@ -43,6 +43,6 @@ span{
 }
 span.ctext{
     opacity: 1;
-    color: brown;
+    color: green;
     transform: translateY(0px);
 }

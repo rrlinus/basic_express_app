@@ -2,7 +2,12 @@
 let text;
 let textString;
 let arr;
-let text1=document.querySelector('h1').textContent
+let h=document.querySelector('h1')
+if(h==null){
+    console.log("Heading not defined")
+}
+else{
+const text1=h.textContent
 function fun(){
 text=document.querySelector('h1')
 textString=text1;
@@ -29,6 +34,6 @@ function onTick(){
         fun()
     }
 
-    
+}
 
 }
